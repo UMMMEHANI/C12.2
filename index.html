@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <style>
+            div{
+                right: 30px;
+                border: 15px solid azure;
+            }
+            div.absolute{
+                position: absolute;
+                left: 50px;
+                border: 3px solid blue;
+            }
+            div.relative{
+                position: relative;
+                left: 100px;
+                border: 3px solid greenyellow;
+            }
+            div.fixed{
+                position: fixed;
+                top: 0;
+                right: 20px;
+                width: 300px;
+                border: 3px solid yellow;
+            }
+            div.sticky{
+                position: sticky;
+                top: 1px;
+                left: 20px;
+                width: 100px;
+                border: 3px solid red;
+            }
+            div.first{
+                opacity: 0.1;
+            }
+            div.second{
+                opacity: 0.3;
+            }
+            div.third{
+                opacity: 0.6;
+            }
+            div.fourth{
+                opacity: 1;
+                background-color: bisque;
+                padding: 10px;
+            }
+        </style>
+        <title>POSITIONING</title>
+    </head>
+    <body>
+        <h1>POSITIONING</h1>
+        <div>
+            With no position property
+        </div><br>
+        <div class="sticky">
+            Div with sticky position
+        </div><br>
+        <div class="relative">
+            This div element has position: relative;
+        <div class="absolute">
+            Using absolute position property
+        </div><br>
+        </div><br>
+        <div class="fixed">
+            Div with fixed position property
+        </div><br>
+        <div class="first">
+            opacity 0.1
+        </div>
+        <div class="second">
+            opacity 0.3
+        </div>
+        <div class="third">
+            opacity 0.6
+        </div>
+        <div class="fourth">
+            opacity 1
+        </div>
+    </body>
+</html>
